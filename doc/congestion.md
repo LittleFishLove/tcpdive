@@ -97,7 +97,7 @@ the congestion avoidance of Cubic is composed by serveral epochs.
 
 An epoch period consists of three phases:
 - Searching phase, ramps up to the window size before the last congestion event.
-- Stable phase, allows the window size to stabilize for a period.
+- Stable phase, allows the window size to stabilize for a period. Modified：所谓stable phase并不存在，而是一个stable点，从下面设置的探测内容也可以看出来只探测了两个phase和三个key points
 - Max probing phase, probes for more bandwidth.
 
 **epoch_cnt**       
